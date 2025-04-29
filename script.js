@@ -13,6 +13,17 @@ let quarterWrapper = (quarters - remainingQuarters) / 40;
 let total = (pennies * .01) + (nickles * .05) + (dimes * .1) + (quarters * .25)
 
 
+// const multiplesOf50 = (number, count) => {
+//     let multiples = []
+//     for (let i = 1; i <= count; i++) {
+//         multiples.push(number * i);
+//     }
+//     console.log(multiples)
+// }
+
+// console.log(multiplesOf50(50, ))
+
+
 // for (let i = 0; pennies - i >= pennies / 50; i++) {
 //     if (pennies / 50 === 0) {
 //         pennyWrapper = pennies / 50
@@ -21,6 +32,12 @@ let total = (pennies * .01) + (nickles * .05) + (dimes * .1) + (quarters * .25)
 //         console.log(`You have ${pennyWrapper} penny rolls with ${remainingPennies} left over`)
 //     }
 // };
+
+
+//------------------------------------------------//
+
+
+
 if (pennies > 0) {
     console.log(`Out of ${pennies} pennies, you have ${pennyWrapper} penny rolls with ${remainingPennies} left over`)
 };
